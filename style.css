@@ -14,7 +14,7 @@ body {
     height: 2vw;
     opacity: 0.4;
     cursor: pointer;
-    /* background-color: black; */
+
 }
 .button:hover {
     transition: 7s;
