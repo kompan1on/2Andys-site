@@ -2,7 +2,7 @@
     width: 100%;
     margin: 0;
     /* background-color: rgb(19, 0, 0); */
-    background-image: url(/fon.jpg);
+    background-image: url(fon.jpg);
     background-repeat: no-repeat;
     /* background-size: cover; */
     display: flex;
