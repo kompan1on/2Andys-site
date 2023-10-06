@@ -1,12 +1,106 @@
-body {
+.body {
     width: 100%;
     margin: 0;
-    background-color: rgb(19, 0, 0);
+    /* background-color: rgb(19, 0, 0); */
+    background-image: url(/fon.jpg);
+    background-repeat: no-repeat;
+    /* background-size: cover; */
     display: flex;
-    align-items: center;
-    flex-direction: column;
+
+    background-size: auto 145vh ;
 }
 .button {
+    position: absolute;
+    width: fit-content;
+    height: fit-content;
+    opacity: 0.3;
+    cursor: pointer;
+    z-index: 3;
+}
+.button:hover {
+    transition: 7s;
+    transform: scale(10);
+    opacity: 1;
+}
+.bi {
+    width: 2vw;
+    height: 2vw;
+}
+.bi:hover {
+    transition: 7s;
+    transform: translate(1vw, 1vw);
+}
+.icon-cont-cont {
+    flex-direction: column;
+    width: 50%;
+    z-index: 2;
+}
+.icon-cont {
+    display: flex;
+    margin-top: 7%;
+    height: 13vh;
+    width: 100%;
+    border-radius: 10vw;
+    background-color: rgba(240, 248, 255, 0.678);
+    margin-left: 5%;
+    align-items: center;
+}
+.icon-cont a {
+    display: flex;
+    width: fit-content;
+    height: 100%;
+    margin-left: 3%;
+}
+.icon-text {
+    font-size: 2vw;
+}
+.icon {
+    height: 100%;
+    opacity: 0.8;
+}
+.icon:hover {
+    transition: 0.3s;
+    transform: scale(1.2);
+    opacity: 1;
+}
+.img-cont {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(146, 146, 146, 0.747);
+    border-radius: 1vw;
+    width: fit-content;
+    height: fit-content;
+    padding: 1%;
+}
+.img {
+    width: 30vw;
+    border-radius: 1%;
+    max-width: 700px;
+}
+@media screen and (max-aspect-ratio: 25 / 19) {
+    .body {
+        align-items: center;
+        flex-direction: column;
+    }
+    .icon-cont-cont {
+        width: 90%;
+        margin-left: 0;
+    }
+    .icon-cont {
+        margin-left: 0;
+    }
+    .img-cont {
+        margin: 3%;
+    }
+    .img {
+        width: 70vw;
+    }
+    .icon-text {
+        font-size: 3vw;
+    }
+}
+/* .button {
     margin-top: 10vw;
     margin-right: 50vw;
     position: absolute;
@@ -83,4 +177,4 @@ body {
     transition: 0.3s;
     transform: scale(1.2);
     opacity: 1;
-}
+} */
