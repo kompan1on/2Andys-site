@@ -105,6 +105,9 @@
         align-items: center;
         flex-direction: column;
     }
+    .left {
+        display: none;
+    }
     .all-cont-absolute {
         align-items: center;
         flex-direction: column; 
@@ -124,6 +127,9 @@
     }
     .icon-text {
         font-size: 2.8vw;
+    }
+    .button {
+        opacity: 0.2;
     }
 }
 /* .button {
